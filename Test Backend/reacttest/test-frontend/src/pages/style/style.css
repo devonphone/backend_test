@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+}
+
+
+.header {
+    height: fit-content;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header #username{
+    text-align: right;
+    margin-right: 8%;
+}
+
+.body{
+    display: flex;
+    height: 1000px;
+}
+
+.menu{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding-inline: 30px;
+    padding-block: 10px;
+}
+
+.product{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding-inline: 30px;
+    padding-block: 10px;
+    width: 100%;
+    background-color: #f2f7ff
+}
+
+.pagination{
+    display: flex;
+    margin: 20px;
+}
+
+.pagination a{
+    margin-block: 10px;
+    margin-inline: 20px;
+    text-decoration: none;
+    border: 1px black solid;
+    padding-inline: 8px
+}
+
+.obox{
+    background: white
+}
